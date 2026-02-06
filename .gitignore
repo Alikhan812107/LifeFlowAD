@@ -1,0 +1,53 @@
+# binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+main
+main.exe
+
+# test files
+*.test
+
+# coverage
+*.out
+
+# go mod cache
+go.sum
+
+# env files
+.env
+.env.local
+.env.production
+
+# logs
+*.log
+
+# ide stuff
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# os stuff
+.DS_Store
+Thumbs.db
+
+# temp files
+*.tmp
+*.temp
+
+# build stuff
+/bin/
+/dist/
+/build/
+
+# db files
+*.db
+*.sqlite
+*.sqlite3
+
+# zip files
+*.zip
+*.tar.gz
